@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=NAMITestJob.map -O0 --gc-sections -lm -lgcc -lc -LG:\Soft\CooCox\CoIDE\configuration\ProgramData\NAMITestJob -TG:\Soft\CooCox\CoIDE\configuration\ProgramData\NAMITestJob/arm-gcc-link.ld -g">
+      <target file="NAMITestJob.elf" lastModified="1576dbd44a1">
+         <source file="..\obj\stm32f4xx_hal_spi.o" lastModified="1576dbbe481"/>
+         <source file="..\obj\stm32f4xx_hal_flash_ramfunc.o" lastModified="1576dbbf1be"/>
+         <source file="..\obj\stm32f4xx_hal_msp.o" lastModified="1576dbbfd31"/>
+         <source file="..\obj\stm32f4xx_hal_uart.o" lastModified="1576dbc0d92"/>
+         <source file="..\obj\stm32f4xx_hal_tim.o" lastModified="1576dbc41e6"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1576dbc64dc"/>
+         <source file="..\obj\main.o" lastModified="1576dbc8fee"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="1576dbc9d8e"/>
+         <source file="..\obj\stm32f4xx_hal_flash.o" lastModified="1576dbca6d5"/>
+         <source file="..\obj\stm32f4xx_hal_pwr.o" lastModified="1576dbcb318"/>
+         <source file="..\obj\stm32f4xx_hal_adc_ex.o" lastModified="1576dbcbcfb"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="1576dbcc7cc"/>
+         <source file="..\obj\stm32f4xx_hal_dma_ex.o" lastModified="1576dbcd243"/>
+         <source file="..\obj\stm32f4xx_hal_rcc_ex.o" lastModified="1576dbcdd6d"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="1576dbce674"/>
+         <source file="..\obj\stm32f4xx_hal_flash_ex.o" lastModified="1576dbcf04b"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="1576dbcf8f3"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1576dbd01d0"/>
+         <source file="..\obj\stm32f4xx_hal_adc.o" lastModified="1576dbd0d34"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="1576dbd1a84"/>
+         <source file="..\obj\stm32f4xx_hal_pwr_ex.o" lastModified="1576dbd240f"/>
+         <source file="..\obj\stm32f4xx_hal_tim_ex.o" lastModified="1576dbd2e8b"/>
+         <source file="..\obj\stm32f4xx_hal_dma.o" lastModified="1576dbd3871"/>
+      </target>
+   </processor>
+</history>
