@@ -65,7 +65,16 @@ static void MX_TIM4_Init(void);
 
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
                 
-
+/**
+  * @brief  Отправка сообщения по интерфейсу UART.
+  * @note   Используется для вывода значения, снятого с АЦП.
+  *
+  * @param  huart: указатель на структуру UART_HandleTypeDef, которая
+  *         хранит настройку UART интерфейса.
+  * @param  pData: указатель на переменную, в которой хранится значение,
+  *         снятое с АЦП.
+  * @retval Функция ничего не возвращает.
+  */
 void vUARTsendADCSample(UART_HandleTypeDef *huart, uint32_t *pData) {
     strcpy((char*)uartTxBuff, (char*)pData);
     HAL_UART_Transmit(huart, uartTxBuff, 6, 100);
